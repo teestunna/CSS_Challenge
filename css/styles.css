@@ -1,0 +1,235 @@
+	  		
+	  		body {
+	  			height: 100%;
+    			width: 100%;
+    			position: absolute;
+	  		}
+
+	  		.container-fluid,
+			.row-fluid { height: inherit; padding: 0}
+
+		  	#sidenav {
+			    height: inherit;
+			    background-color: #333333;
+			    padding: 0;
+			    margin-left: auto;
+			    margin-right: auto;
+			    display: table;
+			}
+
+			.logdnalogo {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				display: table;
+				background-color: #FF0066;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+			#img {
+				width: 35px;
+				height: 35px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				vertical-align:middle;
+			}
+
+			#searchbar {
+			    height: 8.42%;
+  				line-height: 55px;
+  				border-top: .1px solid #D3D3D3;
+			    background-color: white;
+			    z-index: 1;
+			    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1); 	
+			}
+
+			#threelines {
+				width: 20px;
+				height: 20px;
+				margin-right: 10px;	
+				filter: brightness(50);
+				filter: contrast(10%);
+			}
+
+			#threelines:hover {
+			    background-color: white;
+			    filter: brightness(150);
+			}
+
+			#text {
+				font-size: 1.3em;
+				padding-left: 10px;
+				font-family: "Open Sans", sans-serif;
+				color: grey;
+			}
+
+			.loremIpsumContainer {
+				display: inline-block;
+			}
+
+			#imgContainer {
+				float: right;
+			}
+
+			.fileNameContainer {
+				height: inherit;
+				overflow-y: auto;
+				padding: 0;
+				margin-top: 2.5px;
+				margin-bottom: -2.8px;
+				background-color: #EEEEEE;
+				border-right: 1px solid #D3D3D3;
+			}
+
+			.content {
+				height: inherit;
+				overflow-y: auto;
+			}
+
+			#explanationContainer {
+				background-color: white;
+				height: inherit;
+				z-index: -1;
+				padding: 0;
+			}
+
+			#innerBodyContainer {
+				padding: 0;
+				height: 95.88%;
+			}
+
+			p span {
+				display: block;
+			}
+
+			#text-header1 {
+				font-weight: bold;
+				font-size: 12px;
+			}
+
+			#text-content1 {
+				font-size: small;
+				color: grey;
+			}
+
+			#loremIpsum1 {
+				z-index: -1;
+				border-bottom: 0.8px solid #D3D3D3;
+				margin-top: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			.pageNumContainer {
+				margin-top: 10px;
+			}
+
+			.largeBoxContainer {
+				margin top: 10px;
+			}
+
+			#largeBox {
+				height: 150px;
+				width: 380px;
+				margin-left: auto;
+				margin-right: auto;
+				display: table;
+				background-color: #b3b3b3;
+				margin-top: 18px;
+			}
+
+			#pageNum {
+				height: 60px;
+				width: 60px;
+				margin-left: auto;
+				margin-right: auto;
+				display: table;
+				border-radius: 5px;
+				background-color: white;
+			}
+
+			#pageNumText {
+				color: white;
+				margin-top: 4px;
+				text-align: center;
+			}
+
+			#largeBoxText {
+				color: grey;
+				margin-top: 4px;
+				text-align: center;
+				font-size: xx-small;
+				font-style: italic;
+			}
+
+			.messageContainer {
+    			bottom: 0;
+				width: 100%;
+				height: 80px;
+				z-index: -1;
+				padding-left: 20px;
+				padding-right: 20px;
+				position: absolute;
+				border-top: .1px solid #D3D3D3;
+				border-bottom: .1px solid #D3D3D3;
+			}
+
+			.messageContainer #messageContentTextInput {
+				z-index: 1;
+				height: 50px;
+				margin: auto;
+				width:inherit;
+				top: 50%;
+     			transform: perspective(1px) translateY(30%);
+				font-size: 1.3em;
+				padding-left: 10px;
+			}
+
+			::placeholder {
+			    color: #D8D6D6;
+			    opacity: 1;
+			}
+
+			#explanationheader1 {
+				font-weight: bold;
+				font-size: 15px;
+				margin-top: 20px;
+				margin-bottom: 5px;
+				padding-left: 40px;
+			}
+
+			#explanationheader2 {
+				font-style: italic;
+				color: grey;
+				padding-bottom: 15px;
+				border-bottom: 0.1px solid #D3D3D3;
+				display: block;
+				margin: 0 auto;
+				width: 90%;
+			}
+
+			#explanationtextmsg {
+				display: block;
+				padding-left: 40px;
+				margin-top: 25px;
+				font-size: x-small;
+				color: grey
+			}
+
+			#explanationtextmsg:first-letter {
+				font-size: 304%;
+				line-height: 10px;
+				padding-top: 10px;
+				float: left;
+				padding-right: 3px;
+				color: black;
+			}
+
+			#finalText {
+				display: block;
+				font-size: x-small;
+				color: grey;
+				padding-left: 40px;
+			}
